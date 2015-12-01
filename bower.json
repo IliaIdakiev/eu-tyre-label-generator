@@ -1,6 +1,6 @@
 {
-  "name": "EU Tyre Label Generator",
-  "version": "1.0.0",
+  "name": "eu-tyre-label-gen",
+  "version": "1.0.1",
   "description": "Module for generating required by EU tyre labels",
   "main": "",
   "moduleType": [],
