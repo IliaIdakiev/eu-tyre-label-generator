@@ -1,7 +1,7 @@
 #EU Tyre Label Generator
 
-    Using this module you can generate lables required by the EU when selling tyres.
-    More info: [Click here](http://www.etrma.org/tyres/tyre-labelling)
+Using this module you can generate lables required by the EU when selling tyres.
+More info: [Click here](http://www.etrma.org/tyres/tyre-labelling)
 
 Usage:
 
