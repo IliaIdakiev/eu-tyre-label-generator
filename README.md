@@ -7,7 +7,7 @@ Usage:
 
 1. Install:
     ```bower install eu-tyre-label-gen ```
-2. Import scripts
+2. Import script and style
 3. Create elements with class 'eu-tyre-label' and necessary attributes (data-fuel, data-rain, data-noise)
 
 ```html
