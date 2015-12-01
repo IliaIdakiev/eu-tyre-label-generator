@@ -25,4 +25,4 @@ Usage:
 
 Result:
 
-![alt text](img/screener.png "EU Tyre Gen Result")
+![alt text](img/screener.png "EU Tyre Gen Result") { height: 200px; }
