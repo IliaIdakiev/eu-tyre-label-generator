@@ -5,8 +5,8 @@
 
 Usage:
 
-    1. Import css and script
-    2. Create elements with class 'eu-tyre-label' and necessary attributes (data-fuel, data-rain, data-noise)
+1. Import css and script
+2. Create elements with class 'eu-tyre-label' and necessary attributes (data-fuel, data-rain, data-noise)
 
 ```html
 <!DOCTYPE html>
