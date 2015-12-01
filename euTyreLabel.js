@@ -1,9 +1,10 @@
 ;var EUTyreLabels = (function() {
 
     var allElements = [];
+    var imgDirectory = 'bower_components/eu-tyre-label-gen/img/';
     var fuelArrowClass = 'eu-tyre-label-fuel-arrow';
     var rainArrowClass = 'eu-tyre-label-rain-arrow';
-    var html = '<div class="eu-tyre-label-background"><div class="' + fuelArrowClass + ' eu-tyre-label-arrow"><img src="./img/arrow.png" alt="eu-tyre-label-fuel-arrow"><span class="eu-tyre-label-arrow-text">0</span></div><div class="' + rainArrowClass + ' eu-tyre-label-arrow"><img src="./img/arrow.png" alt="eu-tyre-label-rain-arrow"><span class="eu-tyre-label-arrow-text">0</span></div><div class="eu-tyre-label-noise-text"><span class="eu-tyre-label-noise-num">50</span><span class="eu-tyre-label-noise-db">dB</span></div></div>';
+    var html = '<div class="eu-tyre-label-background"><div class="' + fuelArrowClass + ' eu-tyre-label-arrow"><img src="' + imgDirectory + 'arrow.png" alt="eu-tyre-label-fuel-arrow"><span class="eu-tyre-label-arrow-text">0</span></div><div class="' + rainArrowClass + ' eu-tyre-label-arrow"><img src="' + imgDirectory + 'arrow.png" alt="eu-tyre-label-rain-arrow"><span class="eu-tyre-label-arrow-text">0</span></div><div class="eu-tyre-label-noise-text"><span class="eu-tyre-label-noise-num">50</span><span class="eu-tyre-label-noise-db">dB</span></div></div>';
 
     var EuTyreLabel = function(obj, fuel, rain, noise) {
         if(!fuel || !rain || !noise) throw new Error('Required parameters on element with id: ' + obj.id + ' are missing');
