@@ -1,0 +1,100 @@
+.eu-tyre-label-background {
+  background-image: url('./img/bg.png');
+  width: 250px;
+  height: 367px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+
+div.eu-tyre-label-arrow {
+  visibility: hidden;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  padding-left: 57px;
+  padding-top: 102px;
+}
+
+span.eu-tyre-label-arrow-text {
+  position: absolute;
+  bottom: 7px;
+  right: 10px;
+  color: white;
+}
+
+div.eu-tyre-label-arrow img {
+  width: 40px;
+}
+
+div.eu-tyre-label-fuel-arrow {
+  width: 40px;
+  padding-left: 96px;
+  padding-top: 102px;
+}
+
+div.eu-tyre-label-noise-text{
+  position: absolute;
+}
+
+div.eu-tyre-label-noise-text {
+  display: block;
+  position: absolute;
+  bottom: 57px;
+  right: 38px;
+  color: white;
+}
+
+div.eu-tyre-label-fuel-arrow.class-b {
+  padding-top: 121px;
+}
+
+div.eu-tyre-label-fuel-arrow.class-c {
+  padding-top: 139px;
+}
+
+div.eu-tyre-label-fuel-arrow.class-d {
+  padding-top: 158px;
+}
+
+div.eu-tyre-label-fuel-arrow.class-e {
+  padding-top: 176px;
+}
+
+div.eu-tyre-label-fuel-arrow.class-f {
+  padding-top: 194px;
+}
+
+div.eu-tyre-label-fuel-arrow.class-g {
+  padding-top: 213px;
+}
+
+div.eu-tyre-label-rain-arrow.class-b {
+  padding-top: 121px;
+}
+
+div.eu-tyre-label-rain-arrow.class-c {
+  padding-top: 139px;
+}
+
+div.eu-tyre-label-rain-arrow.class-d {
+  padding-top: 158px;
+}
+
+div.eu-tyre-label-rain-arrow.class-e {
+  padding-top: 176px;
+}
+
+div.eu-tyre-label-rain-arrow.class-f {
+padding-top: 194px;
+}
+
+div.eu-tyre-label-rain-arrow.class-g {
+  padding-top: 212px;
+}
+
+span.eu-tyre-label-noise-num {
+  padding-right: 3px;
+  font-size: 20px;
+}
