@@ -1,7 +1,7 @@
 ;var EUTyreLabels = (function() {
     var scriptSrc = document.querySelector('script[src$="euTyreLabel.js"]').getAttribute('src');
-    var name = dir.split('/').pop(); 
-    dir = dir.replace('/' + name, "");
+    var name = scriptSrc.split('/').pop(); 
+    var dir = scriptSrc.replace('/' + name, "");
     var allElements = [];
     var imgDirectory = dir + '/img/';
     var fuelArrowClass = 'eu-tyre-label-fuel-arrow';
