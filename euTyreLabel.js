@@ -1,7 +1,9 @@
 ;var EUTyreLabels = (function() {
-
+    var scriptSrc = document.querySelector('script[src$="euTyreLabel.js"]').getAttribute('src');
+    var name = dir.split('/').pop(); 
+    dir = dir.replace('/' + name, "");
     var allElements = [];
-    var imgDirectory = 'bower_components/eu-tyre-label-gen/img/';
+    var imgDirectory = dir + '/img/';
     var fuelArrowClass = 'eu-tyre-label-fuel-arrow';
     var rainArrowClass = 'eu-tyre-label-rain-arrow';
     var html = '<div class="eu-tyre-label-background"><div class="' + fuelArrowClass + ' eu-tyre-label-arrow"><img src="' + imgDirectory + 'arrow.png" alt="eu-tyre-label-fuel-arrow"><span class="eu-tyre-label-arrow-text">0</span></div><div class="' + rainArrowClass + ' eu-tyre-label-arrow"><img src="' + imgDirectory + 'arrow.png" alt="eu-tyre-label-rain-arrow"><span class="eu-tyre-label-arrow-text">0</span></div><div class="eu-tyre-label-noise-text"><span class="eu-tyre-label-noise-num">50</span><span class="eu-tyre-label-noise-db">dB</span></div></div>';
