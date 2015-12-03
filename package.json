@@ -1,0 +1,25 @@
+{
+  "name": "eu-tyre-label-gen",
+  "version": "1.0.0",
+  "description": "Module for generating tyre labels required by EU",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IliaIdakiev/eu-tyre-label-generator.git"
+  },
+  "keywords": [
+    "tyre",
+    "label",
+    "generator",
+    "eu",
+    "european",
+    "union"
+  ],
+  "author": "= <=>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IliaIdakiev/eu-tyre-label-generator/issues"
+  },
+  "homepage": "https://github.com/IliaIdakiev/eu-tyre-label-generator#readme"
+}
