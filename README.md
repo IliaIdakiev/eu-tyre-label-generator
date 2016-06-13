@@ -32,7 +32,7 @@ Result:
 
 For different sizes something like 
 
-```
+```html
 <html>
     <head>
         <link rel="stylesheet" href="bower_components/eu-tyre-label-gen/euTyreLabel.css">
