@@ -22,6 +22,7 @@ span.eu-tyre-label-arrow-text {
   bottom: 7px;
   right: 10px;
   color: white;
+  line-height: 100%;
 }
 
 div.eu-tyre-label-arrow img {
@@ -97,4 +98,11 @@ div.eu-tyre-label-rain-arrow.class-g {
 span.eu-tyre-label-noise-num {
   padding-right: 3px;
   font-size: 20px;
+}
+
+img.eu-tyre-label-noise-marker {
+    width: 30px;
+    position: absolute;
+    left: -60px;
+    top: -11px;
 }
