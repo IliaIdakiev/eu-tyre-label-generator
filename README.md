@@ -18,9 +18,11 @@ Usage:
         <script src="bower_components/eu-tyre-label-gen/euTyreLabel.js"></script>
     </head>
     <body>
-        <div class="eu-tyre-label" data-fuel="A" data-rain="C" data-noise="50"></div>
+        <div class="eu-tyre-label" data-fuel="A" data-rain="C" data-noise="68"></div>
         <br>
-        <div class="eu-tyre-label" data-fuel="B" data-rain="A" data-noise="40"></div>
+        <div class="eu-tyre-label" data-fuel="B" data-rain="A" data-noise="69"></div>
+        <br>
+        <div class="eu-tyre-label" data-fuel="B" data-rain="A" data-noise="73"></div>
     </body>
 </html>
 ```
