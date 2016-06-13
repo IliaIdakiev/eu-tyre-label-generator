@@ -44,7 +44,7 @@ For different sizes something like
                 height: 184px;
             }
 
-            div#my-container div#eu-tyre-label {
+            div#my-container div.eu-tyre-label {
                 position: absolute;
                 transform: scale(0.5);
                 top: 0px;
